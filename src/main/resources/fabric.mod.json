@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "training-mod",
+	"version": "${version}",
+	"name": "Training Mod",
+	"description": "This is a tutorial mod by D4ft.0n3",
+	"authors": [
+		"D4ft.0n3"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/D4ft-1/training-mod-template-1.21"
+	},
+	"license": "MIT",
+	"icon": "assets/training-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.d4ft.training.TrainingMod"
+		],
+		"fabric-datagen": [
+			"com.d4ft.training.TrainingModDataGenerator"
+		],
+		"client": [
+			"com.d4ft.training.TrainingModClient"
+		]
+	},
+	"mixins": [
+		"training-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
