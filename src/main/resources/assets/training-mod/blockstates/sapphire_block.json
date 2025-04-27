@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "training-mod:block/sapphire_block"
+    }
+  }
+}

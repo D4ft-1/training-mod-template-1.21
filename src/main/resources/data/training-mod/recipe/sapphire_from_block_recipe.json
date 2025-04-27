@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "category": "misc",
+
+  "ingredients": [
+    {
+      "item": "training-mod:sapphire_block"
+    }
+  ],
+
+  "result": {
+    "id": "training-mod:sapphire",
+    "count": 9
+  }
+}

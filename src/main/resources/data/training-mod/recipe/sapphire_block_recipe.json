@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "training-mod:sapphire"
+    }
+  },
+  "result": {
+    "id": "training-mod:sapphire_block",
+    "count": 1
+  }
+}

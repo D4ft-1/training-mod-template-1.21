@@ -1,5 +1,7 @@
 {
   "item.training-mod.sapphire": "Sapphire",
-  "item.training-mod.raw_sapphire": "Raw Sapphire"
+  "item.training-mod.raw_sapphire": "Raw Sapphire",
+  "block.training-mod.sapphire_block": "Sapphire Block",
+  "block.training-mod.raw_sapphire_block": "Raw Sapphire Block"
 
 }

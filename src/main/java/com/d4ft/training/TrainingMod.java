@@ -1,5 +1,6 @@
 package com.d4ft.training;
 
+import com.d4ft.training.block.ModBlocks;
 import com.d4ft.training.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,5 +22,6 @@ public class TrainingMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
