@@ -4,6 +4,8 @@
 
   "block.training-mod.sapphire_block": "Sapphire Block",
   "block.training-mod.raw_sapphire_block": "Raw Sapphire Block",
+  "block.training-mod.sapphire_ore": "Sapphire Ore",
+  "block.training-mod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
   "itemgroup.training-mod.sapphire_items": "Sapphire Items",
   "itemgroup.training-mod.sapphire_blocks": "Sapphire Blocks"

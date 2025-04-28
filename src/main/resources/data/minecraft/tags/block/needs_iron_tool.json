@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "training-mod:sapphire_block",
+    "training-mod:raw_sapphire_block",
+    "training-mod:sapphire_ore",
+    "training-mod:deepslate_sapphire_ore"
+  ]
+}
