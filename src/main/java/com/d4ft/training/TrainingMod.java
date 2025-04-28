@@ -1,6 +1,7 @@
 package com.d4ft.training;
 
 import com.d4ft.training.block.ModBlocks;
+import com.d4ft.training.item.ModItemGroups;
 import com.d4ft.training.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,7 +21,7 @@ public class TrainingMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
